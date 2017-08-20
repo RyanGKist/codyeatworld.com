@@ -1,0 +1,49 @@
+// Base
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: $html-font-size;
+  line-height: $html-line-height;
+}
+
+body {
+  background: $body-bg;
+  color: $body-font-color;
+  font-family: $body-font-family;
+  font-size: $font-size;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    color: $link-color-hover;
+    text-decoration: none;
+  }
+}
+
+hr {
+  height: $border-width;
+  background: $border-color;
+  width: 100%;
+  margin: $spacer * 2 0;
+  border-style: none;
+  border-width: 0;
+}
+
+// Focus state
+// :focus {
+//   @include control-shadow($sombra-primary);
+//   outline: none;
+// }

@@ -1,0 +1,3 @@
+@mixin control-shadow($color) {
+  box-shadow: 0 0 0 .2rem transparentize($color, .75);
+}

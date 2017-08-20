@@ -1,0 +1,72 @@
+.highlight {
+  background: $border-color;
+  color: $cew-white;
+  margin: 0 0 $spacer 0;
+  padding: 0;
+  border-radius: $border-radius;
+
+  .hll { background-color: #515151 }
+  .c { color: mix($cew-white, $border-color, 50%); } /* Comment */
+  .err { color: mix($cew-pink, $white, 75%); } /* Error */
+  .k { color: mix($cew-purple, $white, 75%); } /* Keyword */
+  .l { color: mix($cew-orange, $white, 75%); } /* Literal */
+  .n { color: $cew-white } /* Name */
+  .o { color: mix($cew-red, $white, 35%); } /* Operator */
+  .p { color: $cew-white } /* Punctuation */
+  .cm { color: mix($cew-white, $border-color, 50%); } /* Comment.Multiline */
+  .cp { color: mix($cew-red, $cew-white, 50%); } /* Comment.Preproc */
+  .c1 { color: mix($cew-white, $border-color, 50%); } /* Comment.Single */
+  .cs { color: mix($cew-white, $border-color, 50%); } /* Comment.Special */
+  .gd { color: mix($cew-pink, $white, 75%); } /* Generic.Deleted */
+  .ge { font-style: italic } /* Generic.Emph */
+  .gh { color: $cew-white; font-weight: bold } /* Generic.Heading */
+  .gi { color: mix($cew-green, $white, 50%); } /* Generic.Inserted */
+  .gp { color: mix($cew-white, $border-color, 50%);; font-weight: bold } /* Generic.Prompt */
+  .gs { font-weight: bold } /* Generic.Strong */
+  .gu { color: mix($cew-red, $white, 35%);; font-weight: bold } /* Generic.Subheading */
+  .kc { color: mix($cew-purple, $white, 75%); } /* Keyword.Constant */
+  .kd { color: mix($cew-purple, $white, 75%); } /* Keyword.Declaration */
+  .kn { color: mix($cew-red, $white, 35%); } /* Keyword.Namespace */
+  .kp { color: mix($cew-purple, $white, 75%); } /* Keyword.Pseudo */
+  .kr { color: mix($cew-purple, $white, 75%); } /* Keyword.Reserved */
+  .kt { color: mix($cew-yellow, $white, 75%); } /* Keyword.Type */
+  .ld { color: mix($cew-green, $white, 50%); } /* Literal.Date */
+  .m { color: mix($cew-orange, $white, 75%); } /* Literal.Number */
+  .s { color: mix($cew-green, $white, 50%); } /* Literal.String */
+  .na { color: mix($cew-cyan, $white, 75%); } /* Name.Attribute */
+  .nb { color: $cew-white } /* Name.Builtin */
+  .nc { color: mix($cew-yellow, $white, 75%); } /* Name.Class */
+  .no { color: mix($cew-pink, $white, 75%); } /* Name.Constant */
+  .nd { color: mix($cew-red, $white, 35%); } /* Name.Decorator */
+  .ni { color: $cew-white } /* Name.Entity */
+  .ne { color: mix($cew-pink, $white, 75%); } /* Name.Exception */
+  .nf { color: mix($cew-cyan, $white, 75%); } /* Name.Function */
+  .nl { color: $cew-white } /* Name.Label */
+  .nn { color: mix($cew-yellow, $white, 75%); } /* Name.Namespace */
+  .nx { color: mix($cew-cyan, $white, 75%); } /* Name.Other */
+  .py { color: $cew-white } /* Name.Property */
+  .nt { color: mix($cew-red, $white, 35%); } /* Name.Tag */
+  .nv { color: mix($cew-pink, $white, 75%); } /* Name.Variable */
+  .ow { color: mix($cew-red, $white, 35%); } /* Operator.Word */
+  .w { color: $cew-white } /* Text.Whitespace */
+  .mf { color: mix($cew-orange, $white, 75%); } /* Literal.Number.Float */
+  .mh { color: mix($cew-orange, $white, 75%); } /* Literal.Number.Hex */
+  .mi { color: mix($cew-orange, $white, 75%); } /* Literal.Number.Integer */
+  .mo { color: mix($cew-orange, $white, 75%); } /* Literal.Number.Oct */
+  .sb { color: mix($cew-green, $white, 50%); } /* Literal.String.Backtick */
+  .sc { color: $cew-white } /* Literal.String.Char */
+  .sd { color: mix($cew-white, $border-color, 50%); } /* Literal.String.Doc */
+  .s2 { color: mix($cew-green, $white, 50%); } /* Literal.String.Double */
+  .se { color: mix($cew-orange, $white, 75%); } /* Literal.String.Escape */
+  .sh { color: mix($cew-green, $white, 50%); } /* Literal.String.Heredoc */
+  .si { color: mix($cew-orange, $white, 75%); } /* Literal.String.Interpol */
+  .sx { color: mix($cew-green, $white, 50%); } /* Literal.String.Other */
+  .sr { color: mix($cew-green, $white, 50%); } /* Literal.String.Regex */
+  .s1 { color: mix($cew-green, $white, 50%); } /* Literal.String.Single */
+  .ss { color: mix($cew-orange, $white, 50%); } /* Literal.String.Symbol */
+  .bp { color: $cew-white } /* Name.Builtin.Pseudo */
+  .vc { color: mix($cew-pink, $white, 75%); } /* Name.Variable.Class */
+  .vg { color: mix($cew-pink, $white, 75%); } /* Name.Variable.Global */
+  .vi { color: mix($cew-pink, $white, 75%); } /* Name.Variable.Instance */
+  .il { color: mix($cew-orange, $white, 75%); } /* Literal.Number.Integer.Long */
+}

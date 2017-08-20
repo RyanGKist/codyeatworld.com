@@ -1,0 +1,118 @@
+// Basic colors
+$black:                  #000;
+$white:                  #fff;
+
+// codyeatworld
+$cew-asphalt:         #282a36;
+$cew-metal:           #6272a4;
+$cew-white:           #f8f8f2;
+$cew-black:           mix($cew-metal, $black, 20%);
+$cew-cyan:            #8be9fd;
+$cew-green:           #50fa7b;
+$cew-orange:          #ffb86c;
+$cew-pink:            #ff79c6;
+$cew-purple:          #bd93f9;
+$cew-yellow:          #f1fa8c;
+$cew-red:             #f55   ;
+
+// Grayscale
+$gray-base:              #121012;
+$gray-darkest:           lighten($gray-base, 5%);
+$gray-darker:            lighten($gray-base, 15%);
+$gray-dark:              lighten($gray-base, 30%);
+$gray:                   lighten($gray-base, 45%);
+$gray-light:             lighten($gray-base, 55%);
+$gray-lighter:           lighten($gray-base, 70%);
+$gray-lightest:          lighten($gray-base, 85%);
+
+// Colors
+// Core colors
+$cew-primary:         mix($cew-pink, $white, 90%);
+$cew-primary-dark:    mix($cew-primary, $cew-black, 90%);
+$cew-secondary:       $cew-pink;
+$cew-secondaru-dark:  mix($cew-pink, $cew-black, 90%);
+$cew-success:         $cew-green;
+$cew-success-dark:    mix($cew-green, $cew-black, 90%);
+$cew-info:            $cew-cyan;
+$cew-info-dark:       mix($cew-cyan, $cew-black, 90%);
+$cew-warning:         $cew-orange;
+$cew-warning-dark:    mix($cew-orange, $cew-black, 90%);
+$cew-danger:          $cew-red;
+$cew-danger-dark:     mix($cew-red, $cew-black, 90%);
+
+// Links
+$link-color:             lighten($cew-primary, 8%);
+$link-color-hover:       lighten($link-color, 8%);
+
+// Borders
+$border-color:           $gray-darker;
+$border-color-dark:      darken($border-color, 5%);
+$border-radius:          .4rem;
+$border-width:           .2rem;
+$icon-border-width:      .2rem;
+
+// Backgrounds
+$bg-color:               $gray-darkest;
+$bg-color-dark:          darken($bg-color, 3%);
+$bg-color-light:         $gray-darker;
+
+// Global
+$html-font-size:         10px;
+$html-line-height:       1.428571429;
+$body-bg:                $bg-color;
+$body-font-color:        lighten($gray-light, 5%);
+$font-size:              1.8rem;
+$font-size-sm:           1.4rem;
+$font-size-lg:           2.2rem;
+$text-muted:             $gray-dark;
+
+$h1-font-size: 5rem;
+$h2-font-size: 4rem;
+$h3-font-size: 3rem;
+$h4-font-size: 2.4rem;
+$h5-font-size: 2rem;
+$h6-font-size: 1.6rem;
+
+// Fonts
+$lato-font-family:       'Lato', sans-serif;
+$system-font-family:     -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+$fallback-font-family:   'Helvetica Neue', sans-serif;
+$body-font-family:       $lato-font-family, $fallback-font-family;
+$heading-font-family:    $body-font-family;
+
+// Sizes
+$layout-padding:         2rem;
+$layout-padding-lg:      1.5rem;
+$spacer:                 2rem;
+$spacer-sm:              1rem;
+$spacer-lg:              4rem;
+$spacer-x:               2rem;
+$spacer-y:               1.5rem;
+
+// Navbar
+$navbar-height:          6rem;
+
+// Other colors
+$code-color:             mix($cew-red, $cew-pink, 75%);
+$highlight-color:        transparentize($cew-yellow, .5);
+$pre-color:              $gray-lighter;
+$code-font-size:         90%;
+$code-padding-y:         .2rem;
+$code-padding-x:         .4rem;
+$code-color:             $cew-secondary;
+$code-bg:                $border-color;
+
+// Responsive breakpoints
+$size-xs:                480px;
+$size-sm:                600px;
+$size-md:                840px;
+$size-lg:                960px;
+$size-xl:                1280px;
+$size-2x:                1440px;
+
+// Z-index
+$zindex-0:               1;
+$zindex-1:               100;
+$zindex-2:               200;
+$zindex-3:               300;
+$zindex-4:               400;

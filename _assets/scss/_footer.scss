@@ -1,0 +1,15 @@
+// Footer
+.footer {
+  padding: $spacer;
+  color: $text-muted;
+  border-top: $border-width solid $border-color;
+
+  a {
+    color: lighten($text-muted, 8%);
+
+    &:hover,
+    &:focus {
+      color: lighten($text-muted, 16%);
+    }
+  }
+}

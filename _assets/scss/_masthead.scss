@@ -1,0 +1,14 @@
+.masthead {
+  padding: 75px 25px;
+  text-align: center;
+  background: $bg-color-dark;
+  border-bottom: $border-width solid $border-color;
+
+  h2 {
+    color: $cew-primary;
+  }
+
+  h2, p {
+    margin: 0;
+  }
+}

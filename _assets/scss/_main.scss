@@ -1,0 +1,9 @@
+.main {
+  padding: $spacer;
+}
+
+@media (min-width: $size-sm) {
+  .main {
+    lost-center: $size-md $spacer;
+  }
+}

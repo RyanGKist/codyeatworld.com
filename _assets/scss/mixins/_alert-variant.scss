@@ -1,0 +1,9 @@
+@mixin alert-variant($color) {
+  background-color: mix($color, $body-bg, 25%);
+  border-color: $color;
+  color: $color;
+
+  .alert-link {
+    color: lighten($color, 5%);
+  }
+}

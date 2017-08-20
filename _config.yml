@@ -1,0 +1,19 @@
+exclude: [Gemfile, Gemfile.lock, .babelrc, gulpfile.babel.js, package.json, postcss.config.js, yarn.lock, node_modules]
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+
+# Permalinks
+permalink: pretty
+
+# Gems
+gems:
+  - jekyll-tidy
+
+# Site
+title: codyeatworld
+description: A father, Ruby & JavaScript developer, adventure seeker, mechanical keyboard enthusiast.

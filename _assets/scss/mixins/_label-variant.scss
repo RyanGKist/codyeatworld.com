@@ -1,0 +1,4 @@
+@mixin label-variant($background) {
+  background: $background;
+  color: darken($backgroun, 20%);
+}

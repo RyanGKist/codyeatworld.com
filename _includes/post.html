@@ -1,0 +1,14 @@
+<h2>
+  {% if page.title %}
+    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+  {% endif %}
+  {% if post.title %}
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
+</h2>
+
+<p>
+  {{ post.date | date_to_string }}
+</p>
+
+{{ content }}

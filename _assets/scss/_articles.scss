@@ -1,0 +1,7 @@
+.article {
+  margin-bottom: $spacer-lg;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

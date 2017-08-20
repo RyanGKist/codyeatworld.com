@@ -1,0 +1,3 @@
+@mixin shadow-variant($offset) {
+  box-shadow: 0 $offset ($offset + .1rem) * 2 transparentize($black, .8);
+}

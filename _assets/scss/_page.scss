@@ -1,0 +1,10 @@
+.page-header {
+  background: $bg-color-dark;
+  padding: $spacer-lg 0;
+  border-bottom: $border-width solid $border-color;
+
+  h2,
+  p.lead {
+    margin-bottom: 0;
+  }
+}

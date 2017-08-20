@@ -1,0 +1,12 @@
+<header class="header">
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">
+      codyeatworld
+    </a>
+    <section class="navbar-nav">
+      {% for link in site.data.links %}
+        <a class="nav-item" href="{{ link.href }}">{{ link.title }}</a>
+      {% endfor %}
+    </section>
+  </nav>
+</header>

@@ -1,0 +1,36 @@
+// Inline code
+code {
+  padding: $code-padding-y $code-padding-x;
+  font-size: $code-font-size;
+  color: $code-color;
+  background-color: $code-bg;
+  border-radius: $border-radius;
+
+  // Streamline the style when inside anchors to avoid broken underline and more
+  a > & {
+    padding: 0;
+    color: inherit;
+    background-color: inherit;
+  }
+}
+
+
+// Blocks of code
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: $code-font-size;
+  color: $pre-color;
+  overflow: auto;
+  padding: $spacer;
+
+  // Account for some code outputs that place code tags in pre tags
+  code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
