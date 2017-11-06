@@ -8,11 +8,13 @@
     
     <div class="page-header">
       <div class="container">
+        {{ page.date | date_to_string }}
         {% include page-header.html %}
       </div>
     </div>
 
     <section class="main">
+
       {{ content }}
 
       <div class="peace">✌️</div>

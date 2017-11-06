@@ -6,8 +6,8 @@
     "gulp:sass": "gulp sass",
     "gulp:svg": "gulp svg",
     "gulp:images": "gulp images",
-    "jekyll:serve": "jekyll serve",
-    "jekyll:build": "jekyll build",
+    "jekyll:serve": "bundle exec jekyll serve",
+    "jekyll:build": "bundle exec jekyll build",
     "build": "npm-run-all --sequential gulp:js gulp:sass gulp:images gulp:sass gulp:svg jekyll:build"
   },
   "devDependencies": {
