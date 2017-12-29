@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rails: Uploading images confidently with Shrine.rb'
+title: 'Rails: Uploading images with Shrine.rb'
 description: Upload images using Shrine.rb and Dropzone.js.
 ---
 
