@@ -6,7 +6,7 @@
     "gulp:sass": "gulp sass",
     "gulp:svg": "gulp svg",
     "gulp:images": "gulp images",
-    "jekyll:serve": "bundle exec jekyll serve",
+    "jekyll:serve": "bundle exec jekyll serve --host 0.0.0.0",
     "jekyll:build": "bundle exec jekyll build",
     "build": "npm-run-all --sequential gulp:js gulp:sass gulp:images gulp:sass gulp:svg jekyll:build"
   },

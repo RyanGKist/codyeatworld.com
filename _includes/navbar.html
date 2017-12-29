@@ -5,7 +5,12 @@
     </a>
     <section class="navbar-nav">
       {% for link in site.data.links %}
-        <a class="nav-item" href="{{ link.href }}">{{ link.title }}</a>
+        <a class="nav-item" href="{{ link.href }}">
+          <div class="nav-emoji">
+            {{ link.emoji }}
+          </div>
+          {{ link.title }}
+        </a>
       {% endfor %}
     </section>
   </nav>

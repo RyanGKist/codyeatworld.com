@@ -12,6 +12,10 @@
 .navbar {
   width: 100%;
 }
+.nav-emoji {
+  width: 35px;
+  font-size: $h4-font-size;
+}
 
 .navbar-nav {
   display: flex;
@@ -26,10 +30,12 @@
     position: relative;
     flex: 1 0 100%;
     padding: $spacer-sm $spacer;
+    display: flex;
+    align-items: center;
   }
 }
 
-@media (min-width: $size-sm) {
+@media (min-width: $size-md) {
   .navbar {
     display: flex;
     align-items: center;
@@ -41,7 +47,7 @@
   }
 
   .navbar-nav {
-    flex-wrap: nowrap;
+    display: inline-block;
     border: 0;
 
     &:last-child {
@@ -53,11 +59,10 @@
     }
 
     .nav-item {
-      display: inline-block;
-      flex: 1;
+      display: inline-flex;
+      align-items: center;
       padding: 0;
       margin-right: $spacer;
-
     }
   }
 }
